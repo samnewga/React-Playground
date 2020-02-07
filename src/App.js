@@ -10,6 +10,7 @@ import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import Tabs from './state/Tabs';
 import Accordion from './state-drills/Accordion';
+import DemonymApp from './demonymapp/demonymApp';
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -50,6 +51,10 @@ function App() {
   return (
 
     <main className='App'>
+      <div className="wrap">
+      <DemonymApp />
+      </div>
+
       <div className='wrap'>
       <Accordion sections={sections}/>
        </div> 

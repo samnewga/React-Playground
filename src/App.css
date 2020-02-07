@@ -1,7 +1,9 @@
 .App {
-    display: flex;
-    margin: 10px;
+    display: grid;
+    margin: 50px;
     min-height: calc(100vh - 80px);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   
   .left {
@@ -16,7 +18,5 @@
 
   .wrap{
     display: flex;
-    width: 25%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
   }
